@@ -61,131 +61,131 @@ if (jsonresult["licenses"] != null && jsonresult["licenses"] != "")
         switch (liClass) {
             case 'AM':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>"+
-                    "<h3>MOTORFAHRR&Auml;DER | LEICHTKRAFTFAHRZEUGE</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>"+
+                    "<h3 class=\"default\">MOTORFAHRR&Auml;DER | LEICHTKRAFTFAHRZEUGE</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'A1':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>LEICHTE MOTORR&Auml;DER</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">LEICHTE MOTORR&Auml;DER</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'A2':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>MITTLERE MOTORR&Auml;DER</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">MITTLERE MOTORR&Auml;DER</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'A':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>MOTORR&Auml;DER</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">MOTORR&Auml;DER</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'B':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>PKW UND MEHR</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">PKW UND MEHR</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'B1':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>KLEIN- ODER DREIR&Auml;DRIGE MOTORFAHRZEUGE</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">KLEIN- ODER DREIR&Auml;DRIGE MOTORFAHRZEUGE</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'C1':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>KLEIN LASTKRAFTWAGEN</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">KLEIN LASTKRAFTWAGEN</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'C':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>LASTKRAFTWAGEN</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">LASTKRAFTWAGEN</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'D1':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>KLEINBUS</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">KLEINBUS</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'D':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>BUS</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">BUS</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'BE':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>PKW ANH&Auml;NGER</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">PKW ANH&Auml;NGER</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'C1E':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>KLEINBUSANH&Auml;NGER</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">KLEINBUSANH&Auml;NGER</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'CE':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>GROSS LASTKRAFTWAGEN</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">GROSS LASTKRAFTWAGEN</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'D1E':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>BUS MIT ANH&Auml;NGER</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">BUS MIT ANH&Auml;NGER</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'DE':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>GROSS BUS MIT ANH&Auml;NGER</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">GROSS BUS MIT ANH&Auml;NGER</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             case 'F':
 
-                document.getElementById("licenses").innerHTML += "<h2>Klasse " + liClass + "</h2>" +
-                    "<h3>TRAKTOR</h3>" +
-                    "<h2>" + liDate + "</h2>" +
-                    "<h3>AUSSTELLUNGSDATUM</h3>" +
-                    "<h3>-----------------</h3>";
+                document.getElementById("licenses").innerHTML += "<h2 class=\"data\">Klasse " + liClass + "</h2>" +
+                    "<h3 class=\"default\">TRAKTOR</h3>" +
+                    "<h2 class=\"data\">" + liDate + "</h2>" +
+                    "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
+                    "<h3 class=\"default\">-----------------</h3>";
                 break;
             
         }
