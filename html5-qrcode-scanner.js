@@ -24,7 +24,9 @@ docReady(function() {
             resultContainer.innerHTML += `<div>[${countResults}] - ${decodedText}</div>`;
 
             // Optional: To close the QR code scannign after the result is found
-            html5QrcodeScanner.clear();
+            //html5QrcodeScanner.clear();
+            sessionStorage.setItem("result", decodedText);
+            window.open('/person')
         }
     }
 
