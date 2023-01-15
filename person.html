@@ -26,8 +26,10 @@
         <title>Person</title>
     </head>
     <body>
-
-        <button class="btn info" onclick="window.open('https://mockupapp.github.io/mainpage')">Zur&uuml;ck</button>
+        <script>
+            const result = sessionStorage.getItem("result");
+        </script>
+        <button class="btn info" onclick="window.open('/mainpage')">Zur&uuml;ck</button>
 
         <h1 class="info">Personendaten</h1>
         <img src="https://thispersondoesnotexist.com/image" alt="Personpicture" width="200" >
