@@ -42,15 +42,25 @@ console.log(result);
 
 const jsonresult = JSON.parse(result);
 
+function convert_umlauts(str) {
+    return str.replace("Ä", /&Auml;/g)
+              .replace("ä", /&auml;/g)
+              .replace("Ö", /&Ouml;/g)
+              .replace("ö", /&ouml;/g)
+              .replace("Ü", /&Uuml;/g)
+              .replace("ü", /&uuml;/g)
+              .replace("ß", /&szlig;/g)
+}
+
 //fill fields
-document.getElementById("firstname").innerHTML = jsonresult["firstname"].toUpperCase();
-document.getElementById("lastname").innerHTML = jsonresult["lastname"].toUpperCase();
-document.getElementById("dateofbirth").innerHTML = jsonresult["dateofbirth"];
-document.getElementById("placeofbirth").innerHTML = jsonresult["placeofbirth"].toUpperCase();
-document.getElementById("dateofissue").innerHTML = jsonresult["dateofissue"];
-document.getElementById("dateofexpiration").innerHTML = jsonresult["dateofexpiration"];
-document.getElementById("placeofissue").innerHTML = jsonresult["placeofissue"].toUpperCase();
-document.getElementById("licensenumber").innerHTML = jsonresult["licensenumber"];
+document.getElementById("firstname").innerHTML =        convert_umlauts(jsonresult["firstname"].toUpperCase());
+document.getElementById("lastname").innerHTML =         convert_umlauts(jsonresult["lastname"].toUpperCase());
+document.getElementById("dateofbirth").innerHTML =      convert_umlauts(jsonresult["dateofbirth"]);
+document.getElementById("placeofbirth").innerHTML =     convert_umlauts(jsonresult["placeofbirth"].toUpperCase());
+document.getElementById("dateofissue").innerHTML =      convert_umlauts(jsonresult["dateofissue"]);
+document.getElementById("dateofexpiration").innerHTML = convert_umlauts(jsonresult["dateofexpiration"]);
+document.getElementById("placeofissue").innerHTML =     convert_umlauts(jsonresult["placeofissue"].toUpperCase());
+document.getElementById("licensenumber").innerHTML =    convert_umlauts(jsonresult["licensenumber"]);
 
 if (jsonresult["licenses"] != null && jsonresult["licenses"] != "")
 {
