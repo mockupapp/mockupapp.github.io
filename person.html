@@ -24,18 +24,37 @@
             .default {color: black; font-size: 12px;}
         </style>
         <title>Person</title>
+        <script src="person.js"></script>
     </head>
     <body>
-        <script>
-            const result = sessionStorage.getItem("result");
-            console.log(result);
-        </script>
         <button class="btn info" onclick="window.open('/mainpage', '_self')">Zur&uuml;ck</button>
 
         <h1 class="info">Personendaten</h1>
-        <img src="https://thispersondoesnotexist.com/image" alt="Personpicture" width="200" >
+        <img src="https://thispersondoesnotexist.com/image" alt="Personpicture" width="200">
         <h2 id="firstname" class="data">Loading...</h2>
         <h3 class="default">VORNAME</h3>
+        <h2 id="lastname" class="data">Loading...</h2>
+        <h3 class="default">NACHNAME</h3>
+        <img src="/" alt="Signatur">
+        <h3 class="default">SIGNATUR</h3>
+        <h2 id="dateofbirth" class="data">Loading...</h2>
+        <h3 class="default">GEBURTSDATUM</h3>
+        <h2 id="placeofbirth" class="data">Loading...</h2>
+        <h3 class="default">GEBURTSORT</h3>
+        <h2 id="dateofissue" class="data">Loading...</h2>
+        <h3 class="default">AUSSTELLUNGS-DATUM</h3>
+        <h2 id="dateofexpiration" class="data">Loading...</h2>
+        <h3 class="default">AUSSTELLUNGS-ENDE</h3>
+        <h2 id="placeofissue" class="data">Loading...</h2>
+        <h3 class="default">AUSSTELLUNGS-ORT</h3>
+        <h2 id="licensenumber" class="data">Loading...</h2>
+        <h3 class="default">F&Uuml;HRERSCHEIN-NUMMER</h3>
+        <h2 id="licenses" class="data">Loading...</h2>
+        <h3 class="default">F&Uuml;HRERSCHEIN-KLASSEN</h3>
+        <!-- Neuer reiter? -->
+        <h2 id="kfz" class="data">Loading...</h2>
+        <h3 class="default">KFZ</h3>
+
 
     </body>
 </html>
