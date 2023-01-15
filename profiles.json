@@ -1,0 +1,209 @@
+[
+  {
+    "id": "0",
+    "firstname": "Martina",
+    "lastname": "Lupinski",
+    "dateofbirth": "05.10.1995",
+    "placeofbirth": "Dornbirn",
+    "dateofissue": "04.04.2011",
+    "dateofexpiration": "04.04.2026",
+    "placeofissue": "Dornbirn",
+    "licensenumber": "72731195",
+    "licenses": {
+      "F": "16.08.2023",
+      "DE": "06.07.2016",
+      "D1E": "20.06.2015",
+      "CE": "01.06.2019",
+      "C1E": "04.03.2020",
+      "BE": "09.11.2018",
+      "D": "27.11.2016"
+    },
+    "kfz": "W12345-HyundaiI20"
+  },
+  {
+    "id": "1",
+    "firstname": "Stefanie",
+    "lastname": "Malo",
+    "dateofbirth": "12.10.1976",
+    "placeofbirth": "Klosterneuburg",
+    "dateofissue": "04.07.2010",
+    "dateofexpiration": "04.07.2025",
+    "placeofissue": "Graz",
+    "licensenumber": "06598779",
+    "licenses": {
+      "F": "13.10.2014",
+      "DE": "04.05.2010"
+    },
+    "kfz": "W12345-HyundaiI20"
+  },
+  {
+    "id": "2",
+    "firstname": "Elfriede",
+    "lastname": "Hinteregger",
+    "dateofbirth": "03.02.1970",
+    "placeofbirth": "Wels",
+    "dateofissue": "01.11.2022",
+    "dateofexpiration": "01.11.2037",
+    "placeofissue": "Salzburg",
+    "licensenumber": "93007469",
+    "licenses": {
+      "F": "06.01.2013",
+      "DE": "02.09.2019",
+      "D1E": "10.03.2016",
+      "CE": "17.10.2017",
+      "C1E": "04.03.2014",
+      "BE": "19.08.2018",
+      "D": "05.06.2021",
+      "D1": "14.12.2020",
+      "C": "24.11.2022",
+      "C1": "18.05.2016"
+    },
+    "kfz": "W12345-HyundaiI20"
+  },
+  {
+    "id": "3",
+    "firstname": "Mila",
+    "lastname": "Stern",
+    "dateofbirth": "28.12.1992",
+    "placeofbirth": "Wels",
+    "dateofissue": "23.06.2016",
+    "dateofexpiration": "23.06.2031",
+    "placeofissue": "Innsbruck",
+    "licensenumber": "52158164",
+    "licenses": {
+      "F": "10.03.2021",
+      "DE": "16.02.2011",
+      "D1E": "28.06.2012",
+      "CE": "14.11.2015",
+      "C1E": "12.06.2014",
+      "BE": "06.11.2014",
+      "D": "25.05.2012",
+      "D1": "17.12.2015",
+      "C": "10.04.2013",
+      "C1": "24.04.2021",
+      "B": "08.05.2019",
+      "B1": "21.07.2021"
+    },
+    "kfz": "W12345-HyundaiI20"
+  },
+  {
+    "id": "4",
+    "firstname": "Marie",
+    "lastname": "Schmidt",
+    "dateofbirth": "09.12.1974",
+    "placeofbirth": "St. Pölten",
+    "dateofissue": "04.10.2012",
+    "dateofexpiration": "04.10.2027",
+    "placeofissue": "Villach",
+    "licensenumber": "86924535",
+    "licenses": {
+      "F": "17.12.2022",
+      "DE": "16.06.2016",
+      "D1E": "06.09.2014",
+      "CE": "23.01.2010",
+      "C1E": "22.02.2020",
+      "BE": "20.11.2015",
+      "D": "07.03.2015",
+      "D1": "04.06.2021",
+      "C": "17.05.2012",
+      "C1": "14.04.2017",
+      "B": "12.03.2019",
+      "B1": "17.09.2018"
+    },
+    "kfz": "W12345-HyundaiI20"
+  },
+  {
+    "id": "5",
+    "firstname": "Hans Peter",
+    "lastname": "Maier",
+    "dateofbirth": "04.01.1994",
+    "placeofbirth": "Sankt Veit an der Glan",
+    "dateofissue": "16.11.2012",
+    "dateofexpiration": "16.11.2027",
+    "placeofissue": "Graz",
+    "licensenumber": "55441248",
+    "licenses": {
+      "F": "23.06.2018",
+      "DE": "02.07.2017",
+      "D1E": "28.01.2019",
+      "CE": "13.04.2021"
+    },
+    "kfz": "W12345-HyundaiI20"
+  },
+  {
+    "id": "6",
+    "firstname": "Alfons",
+    "lastname": "Huber",
+    "dateofbirth": "28.10.1977",
+    "placeofbirth": "Leonding",
+    "dateofissue": "27.07.2012",
+    "dateofexpiration": "27.07.2027",
+    "placeofissue": "Bregenz",
+    "licensenumber": "75772128",
+    "licenses": {
+      "F": "04.04.2016"
+    },
+    "kfz": "W12345-HyundaiI20"
+  },
+  {
+    "id": "7",
+    "firstname": "Johannes",
+    "lastname": "Wimmer",
+    "dateofbirth": "11.10.2003",
+    "placeofbirth": "Salzburg",
+    "dateofissue": "01.10.2016",
+    "dateofexpiration": "01.10.2031",
+    "placeofissue": "Innsbruck",
+    "licensenumber": "58057910",
+    "licenses": {
+      "F": "01.01.2015",
+      "DE": "09.10.2012",
+      "D1E": "13.02.2016",
+      "CE": "22.03.2016",
+      "C1E": "08.12.2011"
+    },
+    "kfz": "W12345-HyundaiI20"
+  },
+  {
+    "id": "8",
+    "firstname": "Frank",
+    "lastname": "Stein",
+    "dateofbirth": "21.06.2001",
+    "placeofbirth": "Villach",
+    "dateofissue": "16.08.2021",
+    "dateofexpiration": "16.08.2036",
+    "placeofissue": "Klosterneuburg",
+    "licensenumber": "53095302",
+    "licenses": {
+      "F": "21.04.2021",
+      "DE": "19.08.2019",
+      "D1E": "11.06.2021",
+      "CE": "18.11.2023"
+    },
+    "kfz": "W12345-HyundaiI20"
+  },
+  {
+    "id": "9",
+    "firstname": "Alexander",
+    "lastname": "Eder",
+    "dateofbirth": "17.10.1976",
+    "placeofbirth": "Linz",
+    "dateofissue": "07.07.2013",
+    "dateofexpiration": "07.07.2028",
+    "placeofissue": "Bregenz",
+    "licensenumber": "29495416",
+    "licenses": {
+      "F": "24.07.2013",
+      "DE": "20.09.2016",
+      "D1E": "26.08.2012",
+      "CE": "22.02.2016",
+      "C1E": "23.12.2020",
+      "B": "27.08.2016",
+      "BE": "05.10.2016",
+      "D": "18.12.2023",
+      "D1": "04.05.2015",
+      "C": "21.11.2018"
+    },
+    "kfz": "W12345-HyundaiI20"
+  }
+]
