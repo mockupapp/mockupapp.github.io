@@ -13,7 +13,7 @@ docReady(function() {
     var lastResult, countResults = 0;
 
     var html5QrcodeScanner = new Html5QrcodeScanner(
-        "qr-reader", { fps: 10 });
+        "qr-reader", { fps: 10, aspectRatio: (screen.width / screen.height) });
 
     function onScanSuccess(decodedText, decodedResult) {
         if (decodedText !== lastResult) {
@@ -35,6 +35,10 @@ docReady(function() {
         // This callback would be called in case of qr code scan error or setup error.
         // You can avoid this callback completely, as it can be very verbose in nature.
     }
-
     html5QrcodeScanner.render(onScanSuccess, onScanError);
+});
+
+window.addEventListener('resize', function(){
+    "use strict";
+    window.location.reload();
 });
