@@ -42,16 +42,6 @@ console.log(result);
 
 const jsonresult = JSON.parse(result);
 
-function convert_umlauts(str) {
-    return str.replace("Ä", /&Auml;/g)
-              .replace("ä", /&auml;/g)
-              .replace("Ö", /&Ouml;/g)
-              .replace("ö", /&ouml;/g)
-              .replace("Ü", /&Uuml;/g)
-              .replace("ü", /&uuml;/g)
-              .replace("ß", /&szlig;/g)
-}
-
 //fill fields
 document.getElementById("firstname").innerHTML =        convert_umlauts(jsonresult["firstname"].toUpperCase());
 document.getElementById("lastname").innerHTML =         convert_umlauts(jsonresult["lastname"].toUpperCase());
@@ -60,28 +50,43 @@ document.getElementById("placeofbirth").innerHTML =     convert_umlauts(jsonresu
 document.getElementById("dateofissue").innerHTML =      convert_umlauts(jsonresult["dateofissue"]);
 document.getElementById("dateofexpiration").innerHTML = convert_umlauts(jsonresult["dateofexpiration"]);
 document.getElementById("placeofissue").innerHTML =     convert_umlauts(jsonresult["placeofissue"].toUpperCase());
-document.getElementById("licensenumber").innerHTML =    convert_umlauts(jsonresult["licensenumber"]);
+document.getElementById("licensenumber").innerHTML =    convert_umlauts(jsonresult["licensenumber"].toString());
 
-if (jsonresult["licenses"] != null && jsonresult["licenses"] != "")
+if (jsonresult["licenses"] !== null && jsonresult["licenses"] !== "")
 {
     var licenses = jsonresult["licenses"];
     var keys = Object.keys(licenses);
     document.getElementById("licenses").innerHTML = "";
-    var licensestring = "";
+    var licenseString = "";
     for (let i = 0; i < keys.length; i++) {
 
         var liClass = keys[i];
         var liDate = licenses[keys[i]];
 
-        licensestring += "<div class='license_container'> " +
+        licenseString += "<div class='license_container'> " +
             "<div class='license_item'>" + classes[liClass][1] + "</div>" +
             "<div class='license_item'>" + "<h2 class=\"data\" \"\">Klasse " + liClass + "</h2> </div>";
 
-        licensestring += "</div>" + `<h3 class="default"> ${classes[liClass][0]} </h3>`;
+        licenseString += "</div>" + `<h3 class="default"> ${classes[liClass][0]} </h3>`;
 
-        licensestring += "<h2 class=\"data\">" + liDate + "</h2>" +
+        licenseString += "<h2 class=\"data\">" + liDate + "</h2>" +
                     "<h3 class=\"default\">AUSSTELLUNGSDATUM</h3>" +
                     "<hr>";
     }
-    document.getElementById("licenses").innerHTML += licensestring;
+    console.log(licenseString);
+    document.getElementById("licenses").innerHTML += licenseString;
+}
+
+function convert_umlauts(str) {
+
+    if (str !== null && str !== "") {
+        str.replace("Ä", /&Auml;/g)
+            .replace("ä", /&auml;/g)
+            .replace("Ö", /&Ouml;/g)
+            .replace("ö", /&ouml;/g)
+            .replace("Ü", /&Uuml;/g)
+            .replace("ü", /&uuml;/g)
+            .replace("ß", /&szlig;/g)
+    }
+    return str;
 }
