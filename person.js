@@ -51,7 +51,8 @@ document.getElementById("placeofbirth").innerHTML =     convert_umlauts(jsonresu
 document.getElementById("dateofissue").innerHTML =      convert_umlauts(jsonresult["dateofissue"]);
 document.getElementById("dateofexpiration").innerHTML = convert_umlauts(jsonresult["dateofexpiration"]);
 document.getElementById("placeofissue").innerHTML =     convert_umlauts(jsonresult["placeofissue"].toUpperCase());
-document.getElementById("licensenumber").innerHTML =    convert_umlauts(jsonresult["licensenumber"].toString());
+document.getElementById("licensenumber").innerHTML = convert_umlauts(jsonresult["licensenumber"].toString());
+document.getElementById("signatur").src =               "../pics/profile/" + jsonresult["id"] + "_signatur.png";
 
 if (jsonresult["licenses"] !== null && jsonresult["licenses"] !== "")
 {
