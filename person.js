@@ -36,13 +36,14 @@ const classes = {
     "F":   ["TRAKTOR", F_svg]
 }
 
-
-result = "{\r    \"id\": \"0\",\r    \"firstname\": \"Martina\",\r    \"lastname\": \"LUPINSKI\",\r    \"dateofbirth\": \"10.12.1997\",\r    \"placeofbirth\": \"Wien\",\r    \"dateofissue\": \"01.01.2020\",\r    \"dateofexpiration\": \"01.01.2026\",\r    \"placeofissue\": \"BH Gänserndorf\",\r    \"licensenumber\": 123456789,\r    \"licenses\": {\r      \"A\": \"02.02.2000\",\r      \"A1\": \"02.02.2000\",\r      \"A2\": \"02.02.2000\",\r      \"AM\": \"02.02.2000\",\r      \"B1\": \"02.02.2000\",\r      \"B\": \"02.02.2000\",\r      \"C1\": \"02.02.2000\",\r      \"C\": \"02.02.2000\",\r      \"D1\": \"02.02.2000\",\r      \"D\": \"02.02.2000\",\r      \"BE\": \"02.02.2000\",\r      \"C1E\": \"02.02.2000\",\r      \"CE\": \"02.02.2000\",\r      \"D1E\": \"02.02.2000\",\r      \"DE\": \"02.02.2000\",\r      \"F\": \"02.02.2000\"\r    },\r    \"kfz\": \"W12345-HyundaiI20\"\r}";
+//This Result is only for Test Reasons
+//result = "{\r    \"id\": \"0\",\r    \"firstname\": \"Martina\",\r    \"lastname\": \"LUPINSKI\",\r    \"dateofbirth\": \"10.12.1997\",\r    \"placeofbirth\": \"Wien\",\r    \"dateofissue\": \"01.01.2020\",\r    \"dateofexpiration\": \"01.01.2026\",\r    \"placeofissue\": \"BH Gänserndorf\",\r    \"licensenumber\": 123456789,\r    \"licenses\": {\r      \"A\": \"02.02.2000\",\r      \"A1\": \"02.02.2000\",\r      \"A2\": \"02.02.2000\",\r      \"AM\": \"02.02.2000\",\r      \"B1\": \"02.02.2000\",\r      \"B\": \"02.02.2000\",\r      \"C1\": \"02.02.2000\",\r      \"C\": \"02.02.2000\",\r      \"D1\": \"02.02.2000\",\r      \"D\": \"02.02.2000\",\r      \"BE\": \"02.02.2000\",\r      \"C1E\": \"02.02.2000\",\r      \"CE\": \"02.02.2000\",\r      \"D1E\": \"02.02.2000\",\r      \"DE\": \"02.02.2000\",\r      \"F\": \"02.02.2000\"\r    },\r    \"kfz\": \"W12345-HyundaiI20\"\r}";
 console.log(result);
 
 const jsonresult = JSON.parse(result);
 
 //fill fields
+docReady.getElementById("profilepic").src =             "/pics/profile/" + jsonresult["id"] + "_profile.jpg";
 document.getElementById("firstname").innerHTML =        convert_umlauts(jsonresult["firstname"].toUpperCase());
 document.getElementById("lastname").innerHTML =         convert_umlauts(jsonresult["lastname"].toUpperCase());
 document.getElementById("dateofbirth").innerHTML =      convert_umlauts(jsonresult["dateofbirth"]);
