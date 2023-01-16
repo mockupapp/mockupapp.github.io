@@ -43,7 +43,7 @@ console.log(result);
 const jsonresult = JSON.parse(result);
 
 //fill fields
-docReady.getElementById("profilepic").src =             "/pics/profile/" + jsonresult["id"] + "_profile.jpg";
+docReady.getElementById("profilepic").src =             "../pics/profile/" + jsonresult["id"] + "_profile.jpg";
 document.getElementById("firstname").innerHTML =        convert_umlauts(jsonresult["firstname"].toUpperCase());
 document.getElementById("lastname").innerHTML =         convert_umlauts(jsonresult["lastname"].toUpperCase());
 document.getElementById("dateofbirth").innerHTML =      convert_umlauts(jsonresult["dateofbirth"]);
