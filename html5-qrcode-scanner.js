@@ -26,7 +26,7 @@ docReady(function() {
             // Optional: To close the QR code scannign after the result is found
             //html5QrcodeScanner.clear();
             sessionStorage.setItem("result", decodedText);
-            window.open('/person', '_self')
+            window.open('file:///G:/VisualStudio/PolzeiApp/person.html', '_self')
         }
     }
 
